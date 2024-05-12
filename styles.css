@@ -1,0 +1,179 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #eeecec
+}
+
+header {
+    background-color:black;
+    color: #eeecec;
+    /* padding-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+header p{
+    font-size: larger;
+    padding-left:2em;
+}
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px;
+    /* margin-bottom: 20px; */
+   
+
+}
+#about{
+    background-image: url(sven-mieke-MsCgmHuirDo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    /* display: inline; */
+}
+.about1{
+    position: absolute;
+    left: 3rem;
+    top: 7rem;
+}
+.about1-jk{
+    width: 60%;
+}
+.about1-jk span{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    display: inline-block;
+}
+.about1 p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.button{
+    margin-top: 3rem;
+}
+.button .button-inside{
+    padding: 17px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all .5s ease;
+   }
+   .button .button-inside a{
+    text-decoration: none;
+    color: #1fa8ec;
+
+   }
+   .button .button-inside:hover{
+    letter-spacing: 1.5px;
+ background-color: hsl(260, 41%, 7%);
+ color: hsl(0, 28%, 71%);
+ box-shadow: rgb(15, 12, 21) 0px 7px 29px 0px;
+   }
+   .fitness-types{
+    display: flex;
+    margin: 2vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+   }
+   .types-cards{
+    width: 20vw;
+    background-color: black;
+    color: #eeecec;
+    height:62vh;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+   }
+   .types-cards:hover{
+    border: 1px solid rgb(214, 212, 212);
+    transform: scale(1.05);
+   }
+   .types-cards-title{
+    font-size:2vw;
+    font-weight: 700;
+   }
+   .biceps img{
+    height: 12.5vw;
+   }
+   .types-cards a{
+    text-decoration: none;
+    color: white;
+   }
+   .types-cards img{
+    width: 19vw;
+   }
+   .main-yoga1{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin-top: 1rem;
+    height: 65vh;
+   }
+   .main-yoga1 .yoga-section1{
+    width: 70%;
+    padding: 1.5rem;
+   }
+   .main-yoga1 .yoga-section2 img{
+    width: 20rem;
+    padding: 2vw;
+   }
+   .main-yoga1 .yoga-name{
+    color: #fff;
+    font-size: xx-large;
+
+   }
+   .yoga-section p{
+    margin-top: 3rem;
+   }
+
+
+   .main-yoga2{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin-top: 1rem;
+    height: 65vh;
+   }
+   .main-yoga2 .yoga-section1{
+    width: 70%;
+    padding: 1.5rem;
+   }
+   .main-yoga2 .yoga-section2 img{
+    width: 20rem;
+    padding: 2vw;
+   }
+   .main-yoga2 .yoga-name{
+    color: #fff;
+    font-size: xx-large;
+
+   }
+   
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
